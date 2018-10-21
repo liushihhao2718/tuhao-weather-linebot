@@ -1,0 +1,24 @@
+{
+  "name": "tuhao-weather-linebot",
+  "version": "1.0.0",
+  "description": "a line bot practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liushihhao2718/tuhao-weather-linebot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liushihhao2718/tuhao-weather-linebot/issues"
+  },
+  "homepage": "https://github.com/liushihhao2718/tuhao-weather-linebot#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^6.3.0",
+    "express": "^4.16.3"
+  }
+}
