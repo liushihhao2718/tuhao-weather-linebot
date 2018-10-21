@@ -27,7 +27,9 @@ app.post('/callback', line.middleware(config), (req, res) => {
       res.status(500).end();
     });
 });
-
+app.get('/', function(req, res){
+    res.send('hello world'); 
+});
 // event handler
 function handleEvent(event) {
   if (event.type !== 'message' || event.message.type !== 'text') {
@@ -43,7 +45,7 @@ function handleEvent(event) {
 }
 
 // listen on port
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 443;
 app.listen(port, () => {
   console.log(`listening on ${port}`);
 });
