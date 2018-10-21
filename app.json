@@ -1,0 +1,15 @@
+{
+  "name": "tuhao-weather-linebot",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
